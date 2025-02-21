@@ -28,6 +28,7 @@ offset_bottom = 400.0
 color = Color(0.141176, 0.152941, 0.164706, 1)
 
 [node name="Left" type="Area2D" parent="."]
+modulate = Color(0.0322231, 0.565383, 0.599284, 1)
 position = Vector2(67.6285, 192.594)
 script = ExtResource("1")
 
@@ -38,7 +39,7 @@ texture = ExtResource("2")
 shape = SubResource("1")
 
 [node name="Right" type="Area2D" parent="."]
-modulate = Color(4.23551e-06, 0.64369, 0.85186, 1)
+modulate = Color(1, 0.184677, 0.665442, 1)
 position = Vector2(563.815, 188.919)
 script = ExtResource("1")
 
